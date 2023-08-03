@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshita's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image:url("back.jpg");
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size:cover;
+            color: white;
+            font-family:'Poppins',sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            height:50px;
+            background-color:rgb(67, 66, 66);
+            font-size:1rem;
+           
+        }
+        nav ul{
+            display:flex;
+            justify-content:center;
+            
+        }
+        nav ul li{
+            list-style:none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:wheat;
+            
+            font-size:1.02rem;
+        }
+        .left{
+            font-size:1.04rem;
+        }
+        .firstSection{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            margin:10px 0;
+
+        }
+        .firstSection div{
+            width:30%
+        }
+       
+        .leftSection{
+            margin:30px -10;
+            width:500px;
+           
+
+        }
+       
+        
+        .leftSection .btn{
+            padding:12px;
+            background:#1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius:6px;
+            font-size:15px;
+            cursor:pointer;
+        }
+        
+        .leftSection h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+        .rightSection img{  
+            width:80%;
+            margin:120px 0;
+        }
+        .grey{
+            color:rgb(217, 42, 217);
+        }
+        .black{
+            color:rgb(217, 42, 217);
+            font-size:large;
+        }
+        .pink{
+            color:rgb(217, 42, 217);
+            font-size:large;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><span class="black">A</span>kshita's_<span class="pink">P</span>ortfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+               <h1>Hi There,<br>
+                My name is <span class="grey">Akshita Jain</span></h1>
+              <p>I'm a Web Developer & this is my Portfolio Website.<br>
+                    You can know more about me by going through the Resume given below.</p><br>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>    
+            <div class="rightSection"><img src="developer.png"></div>
+        </section>
+    </main>
+
+</body>
+
+</html>
